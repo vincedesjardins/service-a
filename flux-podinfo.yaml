@@ -14,7 +14,7 @@ metadata:
   name: podinfo
   namespace: service-a
 spec:
-  serviceAccountName: dev-team
+  serviceAccountName: fluxcd
   interval: 10m
   chart:
     spec:
