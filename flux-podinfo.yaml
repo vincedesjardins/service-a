@@ -4,7 +4,7 @@ metadata:
   name: podinfo
   namespace: service-a
 spec:
-  interval: 10m
+  interval: 2m
   type: oci
   url: oci://ghcr.io/stefanprodan/charts
 ---
@@ -15,7 +15,7 @@ metadata:
   namespace: service-a
 spec:
   serviceAccountName: fluxcd
-  interval: 10m
+  interval: 2m
   chart:
     spec:
       chart: podinfo
